@@ -1,6 +1,12 @@
+:root {
+    --font-default: "Roboto" , sans-serif;
+    --font-h1-default: #005E60;
+    --font-h2-default: #036b5d;
+}
+
 body {
     color: #333333;
-    font-family: "Lucida Sand Unicode", "Lucida Grande", sans-serif;
+    font-family: var(--font-default);
     margin-left: auto;
     margin-right: auto;
     width: 940px;
@@ -9,11 +15,13 @@ body {
 h1 {
     background-image: url(../imgs/sobre-background.jpg);
     padding: 10px;
+    color: var(--font-h1-default);
 }
 
 h2 {
     border-bottom: 2px groove #333333;
     margin: 30px;
+    color: var(--font-h2-default);
 }
 
 figure {
