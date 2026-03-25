@@ -65,3 +65,27 @@ p{
     float:right;
     margin: 0 0 10px 10px;
 }
+
+header {
+    border: 1px solid green;
+}
+
+nav {
+    border: 1px solid yellow;
+}
+
+article {
+    border: 1px solid purple;
+}
+
+section {
+    border: 1px solid orange;
+}
+
+aside {
+    border: 1px solid aquamarine;
+}
+
+footer {
+    border: 1px solid red;
+}
