@@ -373,9 +373,10 @@ strong {
 }
 
 .aside__figure img {
-  width: 100%;
+  width: 50%;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 /* ============================================
@@ -460,7 +461,7 @@ strong {
 .footer__logo {
   width: 80px;
   height: auto;
-  filter: brightness(0) invert(1);
+  filter: brightness(1) invert(1);
   transition: transform var(--transition-base);
 }
 
