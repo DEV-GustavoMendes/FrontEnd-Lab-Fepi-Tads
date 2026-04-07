@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Loja online de roupas e acessórios - Mirror Fashion">
+    <title>Mirror Fashion - Loja Online</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Design System CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <!-- HEADER COMPONENT -->
+    <header class="header">
+        <div class="header__container">
+            <img src="imgs/logo.png" alt="Logo Mirror Fashion" class="header__logo">
+            <h1 class="header__title">Mirror Fashion</h1>
+        </div>
+    </header>
     
+    <!-- NAVIGATION COMPONENT -->
+    <nav class="nav">
+        <div class="nav__container">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#produtos" class="nav__link">Produtos</a></li>
+                <li class="nav__item"><a href="about-us.html" class="nav__link">Sobre Nós</a></li>
+                <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                <li class="nav__item"><a href="#carrinho" class="nav__link">🛒 Carrinho</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="section section--highlight">
+        <div class="container text-center">
+            <h2>Bem-vindo à Mirror Fashion</h2>
+            <p>Descubra a maior coleção de roupas e acessórios do mundo com os melhores preços garantidos.</p>
+        </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS SECTION -->
+    <section class="section">
+        <div class="container">
+            <h2>Produtos em Destaque</h2>
+            <div class="grid-2">
+                <article class="card card--featured">
+                    <h3>Coleção Premium</h3>
+                    <p>Explore nossas coleções exclusivas com as tendências mais recentes do mercado de moda.</p>
+                </article>
+                <article class="card card--featured">
+                    <h3>Frete Grátis</h3>
+                    <p>Todas as compras com frete grátis para qualquer lugar do mundo, sem se preocupar com o valor.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="section">
+        <div class="container">
+            <h2>Por que escolher a Mirror Fashion</h2>
+            <ul class="list">
+                <li class="list__item">✅ Melhor preço garantido</li>
+                <li class="list__item">✅ Frete grátis para o mundo todo</li>
+                <li class="list__item">✅ Múltiplas formas de pagamento</li>
+                <li class="list__item">✅ Atendimento 24/7</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="section section--highlight">
+        <div class="container text-center">
+            <h2>Pronto para começar?</h2>
+            <p>Acesse nossa <a href="about-us.html">página sobre nós</a> para conhecer mais sobre nossa história e missão.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER COMPONENT -->
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__body">
+                <img src="imgs/logo.png" alt="Logo Mirror Fashion" class="footer__logo">
+                <div class="footer__divider"></div>
+                <p class="footer__text">&copy; 2024 Mirror Fashion - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
