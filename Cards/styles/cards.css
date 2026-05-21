@@ -113,3 +113,40 @@ body {
     background: var(--primary-blue);
     color: white;
 }
+
+@media (max-width: 767px) {
+    body {
+        min-height: auto;
+        padding: 1rem 0;
+    }
+
+    .pricing-container {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+        padding: 1.8rem;
+    }
+}
+
+@media (max-width: 479px) {
+    .pricing-container {
+        padding: 0.75rem;
+    }
+
+    .pricing-card {
+        padding: 1.2rem;
+    }
+
+    .price span {
+        font-size: 2.5rem;
+    }
+
+    .btn-plan {
+        width: 100%;
+    }
+}
